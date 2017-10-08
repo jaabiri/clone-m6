@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+   height: 100%;
+}
+body{
+  background-color:  rgba(47,50,59,0.8);
+  position: relative;
+  background-image: url(https://images.6play.fr/v1/images/864696/raw?width=1024&height=576&fit=max&quality=60&format=jpeg&interlace=1&hash=a48b40953cb4d19652f8ccf361eb077b4c82292b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-attachment: scroll;
+  height: 100%;
+  overflow: hidden;
+}
+*{
+  box-sizing: border-box;
+}
+.main{
+  background-color:  rgba(47,50,59,0.8);
+  position: relative;
+  height: 100vh;
+}
+.grid{
+  display: flex;
+  padding-top:5vh;
+  position: relative;
+  margin-left: 50px;
+}
+
+.App {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+  min-width: 532px;
+  height: calc(100vh + 30px - 120px - 100px);
+  min-height: 300px;
+  margin-top: 0;
+  position: relative;
+  width: 950px;
+}
+.page{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh + 30px - 120px - 100px);
+  min-height: 300px;
+  min-width: 300px;
+  width: 425px;
+}
+.block {
+  flex: 0 0 auto;
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
